@@ -1,4 +1,4 @@
-# ProblemSolving-MySQL-Oracle
+# ProblemSolving-SQL
 
 * MySQL
 * Oracle
