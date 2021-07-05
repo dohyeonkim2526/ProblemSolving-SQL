@@ -11,3 +11,7 @@
 * D-Tech Vlog
 * https://python-lab-201.tistory.com/category/Data%20Engineering/MySQL%20%26%20Oracle
 
+
+###
+
+.gitattributes
