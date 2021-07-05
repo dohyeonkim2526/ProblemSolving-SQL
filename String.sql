@@ -1,0 +1,21 @@
+-- 프로그래머스: 루시와 엘라 찾기
+-- MySQL, Oracle에서 모두 LIKE 조건을 사용해주면 된다.
+SELECT ANIMAL_ID AS ANIMAL_ID, NAME AS NAME, SEX_UPON_INTAKE AS SEX_UPON_INTAKE
+FROM ANIMAL_INS
+WHERE NAME IN ('Lucy', 'Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty')
+ORDER BY ANIMAL_ID
+
+-- 프로그래머스: 이름에 el이 들어가는 동물 찾기
+-- 오라클은 대소문자를 구분하지 못한다.
+-- 방법1.
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS
+WHERE LOWER(NAME) LIKE '%el%' AND ANIMAL_TYPE='Dog'
+-- WHERE UPPER(NAME) LIKE '%EL%' AND ANIMAL_TYPE='Dog'
+ORDER BY NAME
+
+-- 방법2.
+SELECT ANIMAL_ID, NAME
+FROM ANIMAL_INS
+WHERE REGEXP_LIKE(NAME,'EL|El|eL|el') AND ANIMAL_TYPE='Dog'
+ORDER BY NAME
