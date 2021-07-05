@@ -12,6 +12,6 @@
 * https://python-lab-201.tistory.com/category/Data%20Engineering/MySQL%20%26%20Oracle
 
 
-###
 
-.gitattributes
+### 깃허브에서 SQL언어 인식하는 방법
+1. Add file > Create new file > (파일명).gitattributes
