@@ -15,6 +15,6 @@
 
 ### 깃허브에서 SQL언어 인식하는 방법
 1. Add file > Create new file > (파일명).gitattributes
-2. *.sql linguist-detectable=true
-   *.sql linguist-language=sql
-   *.sql text
+2.      *.sql linguist-detectable=true
+        *.sql linguist-language=sql
+        *.sql text
