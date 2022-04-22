@@ -62,7 +62,7 @@ ORDER BY sell_date ASC
 
 ________________________________________________________________________________________________
 
-* 새로 배운 개념 (GROP_CONCAT)
+* 새로 배운 개념 (GROUP_CONCAT)
 
 - 그룹별로 데이터를 concatenate 해주는 함수
 - distinct, seperator(구분자), order by 조건을 함께 활용 할 수 있다.
